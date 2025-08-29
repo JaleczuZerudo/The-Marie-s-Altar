@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Splatfont 2', sans-serif;
-    src: url('./Splatfont2.woff2') format('woff2'),
-         url('./Splatfont2.woff') format('woff'),
-         url('./Splatfont2.ttf') format('ttf');
+    font-family: "Splatfont 2", sans-serif;
+    src: url("../Splatfont2.woff2") format("woff2"),
+         url("../Splatfont2.woff") format("woff"),
+         url("../Splatfont2.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Splatfont 2', sans-serif;
-    src: url('./Splatfont2.woff2') format('woff2'),
-         url('./Splatfont2.woff') format('woff'),
-         url('./Splatfont2.ttf') format('ttf');
+    font-family: "Splatfont 2", sans-serif;
+    src: url("../Splatfont2.woff2") format("woff2"),
+         url("../Splatfont2.woff") format("woff"),
+         url("../Splatfont2.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,13 +18,18 @@
     --light-yellow: #ffff94;
     --dark-yellow: #404000;
 
+    --yellow: #f8ff1e;
+    --light-yellow: #ffff94;
+    --dark-yellow: #404000;
+
     --black: #000000;
     --white: #ffffff;
 }
 
 
 body {
-    font-family: 'Splatfont 2', sans-serif;
+    
+    font-family: "Splatfont 2", sans-serif;
     background-color: var(--green);
     background-image: url("../img/Simple Background Splatoon 3 Complete green.jpg");
     background-repeat: inherit;
@@ -48,29 +53,8 @@ h4{
     font-size: 50%;
 }
 
-input{
-    font-family: 'Splatfont 2', sans-serif;
-    font-size: large;
-    text-align: center;
-    color: var(--black);
-    background-color: var(--light-green);
-    border-radius: 5px;
-    border: 5px, solid, var(--darker-green);
-    width: 80%;
-    box-shadow: 5px  5px var(--black);
-    transition: background 0.2s, transform 0.1s;
-}
-
-input:active {
-    color: var(--white);
-    background-color: var(--yellow);
-    border: 5px solid var(--darker-yellow);
-    box-shadow: 5px 5px var(--white);
-    transform: scale(0.90);
-}
-
 button {
-    font-family: 'Splatfont 2', sans-serif;
+    font-family: "Splatfont 2", sans-serif;
     font-size: large;
     background-color: var(--yellow);
     border-radius: 5px;
@@ -94,6 +78,27 @@ img {
     margin: 10px;
 }
 
+.input_textbox{
+    font-family: "Splatfont 2", sans-serif;
+    font-size: large;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--light-green);
+    border-radius: 5px;
+    border: 5px, solid, var(--darker-green);
+    width: 80%;
+    box-shadow: 5px  5px var(--black);
+    transition: background 0.2s, transform 0.1s;
+}
+
+.input_textbox:active {
+    color: var(--white);
+    background-color: var(--yellow);
+    border: 5px solid var(--darker-yellow);
+    box-shadow: 5px 5px var(--white);
+    transform: scale(0.90);
+}
+
 .title {
     display: flex;
     align-items: center;
@@ -106,6 +111,9 @@ img {
     width: auto;
 }
 
+.icon_lenguage{
+    width: 50px;
+}
 .presentation{
     font-size: 160%;
     margin-left: 10%;
@@ -123,6 +131,30 @@ img {
     border-radius: 15px;
     border: 10px solid var(--darker-green);
     box-shadow: px  10px var(--black);
+}
+
+.lenguage{
+    align-items: center;
+    display: flex;
+}
+
+.button_lenguage {
+    font-family: "Splatfont 2", sans-serif;
+    font-size: large;
+    background-color: var(--green);
+    border-radius: 5px;
+    border: 5px solid var(--darker-green);
+    width: large;
+    box-shadow: 5px 5px var(--black);
+    transition: background 0.2s, transform 0.1s;
+}
+
+.button_lenguage:active {
+    color: var(--white);
+    background-color: var(--light-green);
+    border: 5px solid var(--darker-green);
+    box-shadow: 5px 5px var(--white);
+    transform: scale(0.90);
 }
 
 @media (max-width: 600px) {
